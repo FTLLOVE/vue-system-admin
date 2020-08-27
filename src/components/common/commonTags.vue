@@ -144,6 +144,10 @@ export default {
   border-radius: 2px;
 }
 
+.tags-li .active .tags-li-icon {
+  background-color: red;
+}
+
 .tags-li:not(.active):hover {
   background: #f8f8f8;
 }

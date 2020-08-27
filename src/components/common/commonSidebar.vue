@@ -132,8 +132,8 @@ export default {
     });
   },
   computed: {
+    // 路由配置
     onRoute() {
-      // return this.$router.path.replace("/", "");
       return this.$route.path.replace("/", "");
     },
   },
