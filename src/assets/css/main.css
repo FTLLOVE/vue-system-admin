@@ -178,17 +178,22 @@ a {
 
 
 /* 设置了默认左边框为白色 */
-    .el-submenu .el-submenu__title{
+.el-submenu .el-submenu__title{
         border-left: #fff solid 6px;
-    }
-    /* 设置鼠标悬停时el-submenu的样式 */
-    .el-submenu .el-submenu__title:hover{
+}
+/* 设置鼠标悬停时el-submenu的样式 */
+.el-submenu .el-submenu__title:hover{
         border-left: #6190e8 solid 6px !important;
         background-color: #E2EFF9 !important;
         color: #6190e8 !important;
         
-		}
+}
 		
-		.el-submenu .el-submenu__title:hover i{
+.el-submenu .el-submenu__title:hover i{
 			color: #6190e8;
 	}
+
+.tags-li.active {
+    border: 1px solid #6190e8;
+    background-color: #6190e8;
+}

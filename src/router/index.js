@@ -21,7 +21,7 @@ export default new Router({
 				{
 					path: 'table',
 					component: () => import('../pages/table'),
-					meta: { title: '表格' }
+					meta: { title: '基本表格' }
 				},
 				{
 					path: 'tabs',
@@ -31,7 +31,7 @@ export default new Router({
 				{
 					path: 'form',
 					component: () => import('../pages/form'),
-					meta: { title: '表单' }
+					meta: { title: '基本表单' }
 				},
 				{
 					path: 'editor',

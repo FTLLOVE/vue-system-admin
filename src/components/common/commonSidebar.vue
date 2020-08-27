@@ -1,12 +1,14 @@
 <template>
   <div class="sidebar">
     <el-menu
+      :default-active="onRoute"
       class="sidebar-el-menu"
       :collapse="collapse"
       background-color="#fff"
       text-color="#333"
       active-text-color="#6190e8"
       router
+      unique-opened
     >
       <template v-for="item in items">
         <template v-if="item.subs">
@@ -128,6 +130,12 @@ export default {
       this.collapse = msg;
       bus.$emit("collapse-content", msg);
     });
+  },
+  computed: {
+    onRoute() {
+      // return this.$router.path.replace("/", "");
+      return this.$route.path.replace("/", "");
+    },
   },
 };
 </script>
