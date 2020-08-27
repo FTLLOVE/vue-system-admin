@@ -36,9 +36,9 @@ a {
 .content {
 	width: auto;
 	height: 100%;
-	padding: 10px;
 	overflow-y: scroll;
 	box-sizing: border-box;
+	padding: 10px;
 }
 
 .content-collapse {
@@ -46,10 +46,10 @@ a {
 }
 
 .container {
-	padding: 30px;
-	background: #fff;
 	border: 1px solid #ddd;
 	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 30px 30px 0 30px;
 }
 
 .crumbs {
@@ -196,4 +196,22 @@ a {
 .tags-li.active {
     border: 1px solid #6190e8;
     background-color: #6190e8;
+}
+
+.el-table th>.cell {
+	display: inline-block;
+	box-sizing: border-box;
+	position: relative;
+	vertical-align: middle;
+	padding-left: 13px !important;
+	padding-right: 10px;
+	width: 100%;
+}
+
+.input-wrapper {
+	width: 200px;
+}
+
+.form-wrapper{
+	margin-bottom: 20px;
 }
