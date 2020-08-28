@@ -24,11 +24,6 @@ export default new Router({
 					meta: { title: '基本表格' }
 				},
 				{
-					path: 'tabs',
-					component: () => import('../pages/tabs'),
-					meta: { title: "tabs选项卡" }
-				},
-				{
 					path: 'form',
 					component: () => import('../pages/form'),
 					meta: { title: '基本表单' }
@@ -65,6 +60,11 @@ export default new Router({
 				}
 
 			]
+		},
+		{
+			path: '/login',
+			component: () => import('../pages/login'),
+			meta: { title: '登录' }
 		}
 	]
 })

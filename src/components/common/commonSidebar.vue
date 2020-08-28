@@ -73,11 +73,6 @@ export default {
           title: "基础表格",
         },
         {
-          icon: "el-icon-paperclip",
-          index: "tabs",
-          title: "tab选项卡",
-        },
-        {
           icon: "el-icon-reading",
           index: "3",
           title: "表单相关",

@@ -209,7 +209,7 @@ a {
 }
 
 .input-wrapper {
-	width: 200px;
+	width: 250px !important;
 }
 
 .form-wrapper{

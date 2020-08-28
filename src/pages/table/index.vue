@@ -72,7 +72,7 @@ export default {
     return {
       tableData: [
         {
-          name: "豆芽菜不爱吃豆芽",
+          name: "启回收",
           age: 18,
           school: "南京航空航天大学",
           date: "2020-10-01",
@@ -81,7 +81,7 @@ export default {
           status: 1,
         },
         {
-          name: "豆芽菜不爱吃豆芽",
+          name: "启回收",
           age: 18,
           school: "南京航空航天大学",
           date: "2020-10-01",
@@ -90,7 +90,7 @@ export default {
           status: 0,
         },
         {
-          name: "豆芽菜不爱吃豆芽",
+          name: "启回收",
           age: 18,
           school: "南京理工大学",
           date: "2020-10-01",
@@ -99,7 +99,7 @@ export default {
           status: 1,
         },
         {
-          name: "豆芽菜不爱吃豆芽",
+          name: "启回收",
           age: 18,
           school: "南京航空航天大学",
           date: "2020-10-01",
@@ -108,7 +108,7 @@ export default {
           status: 0,
         },
         {
-          name: "豆芽菜不爱吃豆芽",
+          name: "启回收",
           age: 18,
           school: "南京理工大学",
           date: "2020-10-01",

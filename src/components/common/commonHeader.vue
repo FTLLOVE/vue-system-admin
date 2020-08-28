@@ -17,14 +17,14 @@
         </div>
         <el-dropdown class="user-name" trigger="click" @command="handleCommand">
           <span class="el-dropdown-link">
-            启回收
+            淮南舜启网络科技公司
             <i class="el-icon-caret-bottom"></i>
           </span>
           <el-dropdown-menu slot="dropdown">
             <a href="https://github.com/FTLLOVE/vue-system-admin" target="_blank">
               <el-dropdown-item>项目仓库</el-dropdown-item>
             </a>
-            <el-dropdown-item divided command="loginout">退出登录</el-dropdown-item>
+            <el-dropdown-item divided command="logout">退出登录</el-dropdown-item>
           </el-dropdown-menu>
         </el-dropdown>
       </div>
@@ -69,7 +69,11 @@ export default {
     },
 
     // 下拉菜单选择
-    handleCommand() {},
+    handleCommand(commond) {
+      if (commond === "logout") {
+        this.$router.push("/login");
+      }
+    },
 
     // 控制折叠面板
     handleCollapseChange() {
