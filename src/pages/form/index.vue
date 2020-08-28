@@ -54,7 +54,7 @@
         <el-switch v-model="form.status"></el-switch>
       </el-form-item>
       <el-form-item label="备注信息">
-        <el-input type="textarea" v-model="form.desc" rows="4"></el-input>
+        <el-input type="textarea" v-model="form.desc" rows="4" style="width: 600px"></el-input>
       </el-form-item>
       <el-form-item>
         <el-button type="primary" @click="onSubmit">确定</el-button>
@@ -66,7 +66,7 @@
 
 <script>
 export default {
-  name: "form",
+  name: "basicForm",
   data() {
     return {
       form: {

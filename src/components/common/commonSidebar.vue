@@ -82,18 +82,8 @@ export default {
               title: "基本表单",
             },
             {
-              index: "3-2",
-              title: "三级菜单",
-              subs: [
-                {
-                  index: "editor",
-                  title: "富文本编辑器",
-                },
-                {
-                  index: "markdown",
-                  title: "markdown编辑器",
-                },
-              ],
+              index: "markdown",
+              title: "markdown编辑器",
             },
             {
               index: "upload",
@@ -109,7 +99,7 @@ export default {
         {
           icon: "el-icon-pie-chart",
           index: "charts",
-          title: "schart图表",
+          title: "vchart图表",
         },
         {
           icon: "el-icon-aim",

@@ -26,12 +26,7 @@ export default new Router({
 				{
 					path: 'form',
 					component: () => import('../pages/form'),
-					meta: { title: '基本表单' }
-				},
-				{
-					path: 'editor',
-					component: () => import('../pages/editor'),
-					meta: { title: '富文本编辑器' }
+					meta: { title: '复杂表单' }
 				},
 				{
 					path: 'markdown',
@@ -51,7 +46,7 @@ export default new Router({
 				{
 					path: 'charts',
 					component: () => import('../pages/charts'),
-					meta: { title: 'schart图表' }
+					meta: { title: 'vchart图表' }
 				},
 				{
 					path: 'i18n',
