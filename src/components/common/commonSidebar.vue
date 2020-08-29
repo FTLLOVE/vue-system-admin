@@ -82,6 +82,10 @@ export default {
               title: "基本表单",
             },
             {
+              index: "form-detail",
+              title: "表单详情",
+            },
+            {
               index: "markdown",
               title: "markdown编辑器",
             },

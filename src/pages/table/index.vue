@@ -31,7 +31,7 @@
         <template slot-scope="scope">
           <el-image
             lazy
-            style="width: 50px; height: 50px;border-radius: 25px"
+            style="width: 50px; height: 50px;border-radius: 5px"
             :src="scope.row.img"
             :preview-src-list="scope.row.srcList"
           ></el-image>
@@ -47,8 +47,8 @@
       <el-table-column prop="date" label="入学时间"></el-table-column>
       <el-table-column label="操作">
         <template>
-          <el-button size="mini" plain>编辑</el-button>
-          <el-button size="mini" type="danger">删除</el-button>
+          <el-button size="mini" plain type="primary">编辑</el-button>
+          <el-button size="mini" plain type="danger">删除</el-button>
         </template>
       </el-table-column>
     </el-table>

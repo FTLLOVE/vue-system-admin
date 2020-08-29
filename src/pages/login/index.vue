@@ -9,9 +9,9 @@
         <span class="title">通用中后台管理系统</span>
       </div>
       <div class="right-wrapper">
-        <el-form :label-position="right" :model="loginForm">
+        <el-form :model="loginForm" :rules="loginRules" ref="loginRef">
           <div class="login-title">欢迎登录</div>
-          <el-form-item style="margin-top: 20px">
+          <el-form-item style="margin-top: 20px" prop="username">
             <el-input
               v-model="loginForm.username"
               size="large"
@@ -20,7 +20,7 @@
               prefix-icon="el-icon-user"
             ></el-input>
           </el-form-item>
-          <el-form-item>
+          <el-form-item style="margin-top: 20px" prop="password">
             <el-input
               show-password
               v-model="loginForm.password"
@@ -49,11 +49,25 @@ export default {
         username: "admin",
         password: "admin",
       },
+      loginRules: {
+        username: [
+          { required: true, message: "用户名不能为空", trigger: "blur" },
+        ],
+        password: [
+          { required: true, message: "密码不能为空", trigger: "blur" },
+        ],
+      },
     };
   },
   methods: {
     handleLogin() {
-      this.$router.push("/");
+      this.$refs["loginRef"].validate((valid) => {
+        if (!valid) {
+          return;
+        } else {
+          this.$router.push("/");
+        }
+      });
     },
   },
 };

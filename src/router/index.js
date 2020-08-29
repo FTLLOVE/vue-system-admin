@@ -29,6 +29,11 @@ export default new Router({
 					meta: { title: '复杂表单' }
 				},
 				{
+					path: 'form-detail',
+					component: () => import('../pages/form-detail'),
+					meta: { title: '表单详情' }
+				},
+				{
 					path: 'markdown',
 					component: () => import('../pages/markdown'),
 					meta: { title: 'markdown编辑器' }
