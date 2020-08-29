@@ -65,7 +65,7 @@ export default {
         if (!valid) {
           return;
         } else {
-          this.$router.push("/");
+          this.$router.push("/dashboard");
         }
       });
     },
