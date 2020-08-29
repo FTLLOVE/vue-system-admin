@@ -85,30 +85,22 @@ export default {
               index: "form-detail",
               title: "表单详情",
             },
-            {
-              index: "markdown",
-              title: "markdown编辑器",
-            },
-            {
-              index: "upload",
-              title: "文件上传",
-            },
           ],
         },
         {
-          icon: "el-icon-discover",
-          index: "icon",
-          title: "自定义图标",
+          icon: "el-icon-tickets",
+          index: "markdown",
+          title: "markdown编辑器",
+        },
+        {
+          icon: "el-icon-upload",
+          index: "upload",
+          title: "文件上传",
         },
         {
           icon: "el-icon-pie-chart",
           index: "charts",
           title: "vchart图表",
-        },
-        {
-          icon: "el-icon-aim",
-          index: "i18n",
-          title: "国际化功能",
         },
       ],
     };

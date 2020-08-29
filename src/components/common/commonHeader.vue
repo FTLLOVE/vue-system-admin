@@ -91,8 +91,8 @@ export default {
   width: 100%;
   height: 70px;
   font-size: 22px;
-  background-color: #fff;
-  color: #333;
+  background-color: #6190e8;
+  color: #ffffff;
   margin-bottom: 10px;
   border-bottom: 1px solid #eee;
 }
@@ -101,7 +101,7 @@ export default {
   padding: 0 21px;
   cursor: pointer;
   line-height: 70px;
-  color: #6190e8;
+  color: #ffffff;
 }
 .header .logo {
   float: left;
@@ -110,7 +110,7 @@ export default {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #6190e8;
+  color: #ffffff;
   margin-left: 15px;
 }
 .header-right {
@@ -162,7 +162,7 @@ export default {
   border-radius: 50%;
 }
 .el-dropdown-link {
-  color: #333;
+  color: #ffffff;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;

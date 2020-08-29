@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div style="margin: 20px 0">
+    <div style="margin-bottom: 40px">
       <div style="margin: 10px 0">普通上传</div>
       <el-upload
         action="https://jsonplaceholder.typicode.com/posts/"

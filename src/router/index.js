@@ -44,21 +44,10 @@ export default new Router({
 					meta: { title: '文件上传' }
 				},
 				{
-					path: 'icon',
-					component: () => import('../pages/icon'),
-					meta: { title: '自定义图标' }
-				},
-				{
 					path: 'charts',
 					component: () => import('../pages/charts'),
 					meta: { title: 'vchart图表' }
 				},
-				{
-					path: 'i18n',
-					component: () => import('../pages/i18n'),
-					meta: { title: '国际化功能' }
-				}
-
 			]
 		},
 		{
