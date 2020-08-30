@@ -54,9 +54,9 @@ Vue2.6.11 + ElementUI2.13.2 + vue-router3.4.3 + echarts4.8.0 + v-charts1.19.0 + 
 - [x] markdown编辑器
 - [x] 文件上传
 - [x] charts图表
-- [ ] 发送请求
-- [ ] axios封装
-- [ ] API封装
+- [x] 发送请求
+- [x] axios封装
+- [x] API封装
 - [ ] 未完待续
 
 ## 克隆项目
