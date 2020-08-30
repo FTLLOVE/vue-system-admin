@@ -16,25 +16,25 @@
 
 ### 基本表单
 
-<img src="https://per.kelantu.com/file/20200829170621-Fhdc2QmTCbdO7igO43YGok6HgOwJ?imageMogr2/strip/interlace/1&e=1599004800&token=fcI92Ad84zrdox_zJW-1BhHYB-txBmuiZ8NIfvQu:90jyyH_PmAP_SdtA4btGMLdUhLY=" width="619px" height="300px" style="margin-top: 40px" />
+<img src="https://per.kelantu.com/file/20200829170621-Fhdc2QmTCbdO7igO43YGok6HgOwJ?imageMogr2/strip/interlace/1&e=1599004800&token=fcI92Ad84zrdox_zJW-1BhHYB-txBmuiZ8NIfvQu:90jyyH_PmAP_SdtA4btGMLdUhLY=" style="widht: 619px; height: 300px;margin-top: 30px" />
 
 ### 表单详情
 
-<img src="https://per.kelantu.com/file/20200829170621-FgqJX5sFj3fW4vD9YtnHz3LG4y2F?imageMogr2/strip/interlace/1&e=1599004800&token=fcI92Ad84zrdox_zJW-1BhHYB-txBmuiZ8NIfvQu:K7xnN40XnfYq9Kn4I3jASkVqRYA=" width="619px" height="300px" style="margin-top: 40px" />
+<img src="https://per.kelantu.com/file/20200829170621-FgqJX5sFj3fW4vD9YtnHz3LG4y2F?imageMogr2/strip/interlace/1&e=1599004800&token=fcI92Ad84zrdox_zJW-1BhHYB-txBmuiZ8NIfvQu:K7xnN40XnfYq9Kn4I3jASkVqRYA=" style="widht: 619px; height: 300px;margin-top: 30px" />
 
 ### markdown编辑器
 
-<img src="https://per.kelantu.com/file/20200829170622-FrGdlPejYPXEiP5gJ7uccFjxNw7i?imageMogr2/strip/interlace/1&e=1599004800&token=fcI92Ad84zrdox_zJW-1BhHYB-txBmuiZ8NIfvQu:DgNDkIX9blEPTRMW3oS4Cbb-PRc=" width="619px" height="300px" style="margin-top: 40px" />
+<img src="https://per.kelantu.com/file/20200829170622-FrGdlPejYPXEiP5gJ7uccFjxNw7i?imageMogr2/strip/interlace/1&e=1599004800&token=fcI92Ad84zrdox_zJW-1BhHYB-txBmuiZ8NIfvQu:DgNDkIX9blEPTRMW3oS4Cbb-PRc=" style="widht: 619px; height: 300px;margin-top: 30px" />
 
 ### 文件上传
 
-<img src="https://per.kelantu.com/file/20200829170622-Fv0J0Vh0cHutPBkE8WA6tefjuMGb?imageMogr2/strip/interlace/1&e=1599004800&token=fcI92Ad84zrdox_zJW-1BhHYB-txBmuiZ8NIfvQu:QOoFUbKkWz7fbhiEK4AK-Gx91TI=" width="619px" height="300px" style="margin-top: 40px" />
+<img src="https://per.kelantu.com/file/20200829170622-Fv0J0Vh0cHutPBkE8WA6tefjuMGb?imageMogr2/strip/interlace/1&e=1599004800&token=fcI92Ad84zrdox_zJW-1BhHYB-txBmuiZ8NIfvQu:QOoFUbKkWz7fbhiEK4AK-Gx91TI=" style="widht: 619px; height: 300px;margin-top: 30px" />
 
 ### charts图标
 
-<img src="https://per.kelantu.com/file/20200829170622-FmnQO8odgM2kRd82QWLVhnIfiWmw?imageMogr2/strip/interlace/1&e=1599004800&token=fcI92Ad84zrdox_zJW-1BhHYB-txBmuiZ8NIfvQu:wo8qNHXXlzLmqSILPeTCseUP7Xk=" width="619px" height="300px" style="margin-top: 40px" />
+<img src="https://per.kelantu.com/file/20200829170622-FmnQO8odgM2kRd82QWLVhnIfiWmw?imageMogr2/strip/interlace/1&e=1599004800&token=fcI92Ad84zrdox_zJW-1BhHYB-txBmuiZ8NIfvQu:wo8qNHXXlzLmqSILPeTCseUP7Xk=" style="widht: 619px; height: 300px;margin-top: 30px" />
 
-<div style="color: #6392E5;font-size: 30px">各位老爷如果觉得这个项目还阔以的话，可以给我点个
+<div style="color: #6392E5;font-size: 30px">各位同行如果觉得这个项目还阔以的话，可以给我点个
 <span style="color: red">☆</span>
 </div>
 <div style="color: #6392E5;font-size: 20px;">本项目会一直更新下去,一直开源，一直追求<span style="font-weight: bold">工匠精神</span>
