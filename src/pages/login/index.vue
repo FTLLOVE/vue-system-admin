@@ -41,6 +41,7 @@
 </template>
 
 <script>
+import { fetchLogin } from "../../api/login";
 export default {
   name: "login",
   data() {
@@ -60,12 +61,25 @@ export default {
     };
   },
   methods: {
+    // 登录请求
     handleLogin() {
       this.$refs["loginRef"].validate((valid) => {
         if (!valid) {
           return;
         } else {
-          this.$router.push("/dashboard");
+          let params = {
+            username: this.loginForm.username,
+            password: this.loginForm.password,
+          };
+          fetchLogin(params).then((res) => {
+            if (res.code === 200) {
+              localStorage.setItem("token", res.data);
+              this.$router.push("/dashboard");
+            } else {
+              this.$message.error(res.data);
+              return;
+            }
+          });
         }
       });
     },
