@@ -56,7 +56,7 @@ export default {
         currentItem.path === this.$route.fullPath &&
           this.$router.push(item.path);
       } else {
-        this.$router.push("/");
+        this.$router.push("/dashboard");
       }
     },
 
@@ -88,7 +88,7 @@ export default {
     // 关闭所有选项
     handleCloseAll() {
       this.tagsList = [];
-      this.$router.push("/");
+      this.$router.push("/dashboard");
     },
 
     // 标签选项

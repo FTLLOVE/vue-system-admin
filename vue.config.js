@@ -4,9 +4,9 @@ module.exports = {
 		open: false,
 		proxy: {
 			'/api': {
-				target: 'http://106.54.227.19/',
+				target: 'http://175.24.95.198:8099/',
 				changeOrigin: true,
-				pathRewrite: { '^/api': 'http://106.54.227.19/api/' }
+				pathRewrite: { '^/api': 'http://175.24.95.198:8099/api/' }
 			}
 		}
 	}
