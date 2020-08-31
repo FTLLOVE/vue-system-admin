@@ -10,17 +10,15 @@ let options = {
 },
 	loadingPage
 
-let BASE_URL = "http://106.54.227.19/"
+const BASE_URL = "http://175.24.95.198:8099/"
 let headers = {
 	Accept: 'application/json;charset=utf-8',
 	'Content-Type': 'application/json;charset=utf-8'
 }
-
 // axios配置参数
 axios.defaults.baseUrl = BASE_URL
 axios.defaults.headers = headers
 axios.defaults.timeout = 5000
-
 
 // 请求拦截器
 axios.interceptors.request.use(config => {

@@ -40,6 +40,8 @@ export default class httpUtil {
 	static post(url, params) {
 		return new Promise(async (resolve, reject) => {
 			try {
+				debugger
+				console.log(axios.defaults)
 				let res = await axios.post(url, params);
 				resolve(res);
 			} catch (error) {
