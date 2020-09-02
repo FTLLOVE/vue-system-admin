@@ -1,6 +1,9 @@
 # vue-system-admin
 
 ###   [在线体验地址](http://175.24.95.198/)
+###   [仓库地址](https://github.com/FTLLOVE/vue-system-admin)
+
+### [开发的API文档](https://php-admin-ui.netlify.app/)
 
 ## 预览图
 

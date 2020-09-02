@@ -22,10 +22,14 @@ axios.defaults.timeout = 5000
 
 // 请求拦截器
 axios.interceptors.request.use(config => {
-	// const jwtToken = sessionStorage.getItem("token")
-	// if (jwtToken) {
-	// 	config.headers.Authorization = `Bearer ${jwtToken}`
-	// }
+	config.withCredentials = true
+	let token = localStorage.getItem("token")
+
+	if (token) {
+		config.headers.token = token
+	} else {
+		router.push("/login")
+	}
 	if (config.method === 'get') {
 		config.params = {
 			t: Date.parse(new Date()) / 1000,
@@ -44,7 +48,6 @@ axios.interceptors.request.use(config => {
 //  响应拦截器
 axios.interceptors.response.use(response => {
 	loadingPage.close()
-
 	if (response.data.code === 200) {
 		return response.data
 	}
