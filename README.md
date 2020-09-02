@@ -51,7 +51,7 @@
 Vue2.6.11 + ElementUI2.13.2 + vue-router3.4.3 + echarts4.8.0 + v-charts1.19.0 + mavon-editor2.6.17
 ```
 
-## 项目结构
+## 功能点
 
 - [x] 登录
 - [x] 基本表格
@@ -64,6 +64,65 @@ Vue2.6.11 + ElementUI2.13.2 + vue-router3.4.3 + echarts4.8.0 + v-charts1.19.0 + 
 - [x] axios封装
 - [x] API封装
 - [ ] 未完待续
+
+## 项目结构
+
+```
+.
+├── public                                      // 公共文件夹
+│   ├── favicon.ico                             // 网站头部的图标文件
+│   ├── index.html                              // 程序入口HTML文件
+├── screen                                      // README.md的图片文件
+├── src                                         // 源码文件夹
+│   ├── api                              			// API文件
+│   ├── assets                             		// 资源文件夹
+│   │   └── css											// css文件夹
+│   │       └── main.css                        // 公共css文件
+│   │   └── images										// images文件夹
+│   │       └── login_bg.jpg                    // 登录页面背景图
+│   │       └── logo.png                    		// logo
+│   │   └── theme											// 自定义主题文件夹
+│   │       └── font                    			// 主题字体文件夹
+│   │       └── index.css                    	// 主题css
+│   ├── components                             	// 自定义组件文件夹
+│   │   └── common										// 公共组件
+│   │       └── commonHeader.vue                // 导航栏头部组件
+│   │       └── commonSiderbar.vue              // 侧边栏组件
+│   │       └── commonTags.vue                  // 标签卡组件
+│   │   └── Home.vue										// 组件合并（中心页）
+│   ├── pages                             	   // 所有页面文件夹
+│   │   └── charts										// 图表
+│   │       └── index.vue
+│   │   └── dashboard									// 主面板
+│   │       └── index.vue
+│   │   └── form											// 基本表单
+│   │       └── index.vue
+│   │   └── form-detail									// 表单详情
+│   │       └── index.vue
+│   │   └── login											// 登录
+│   │       └── index.vue
+│   │   └── markdown										// markdown
+│   │       └── index.vue
+│   │   └── table											// 基本表格
+│   │       └── index.vue
+│   │   └── upload										// 上传
+│   │       └── index.vue
+│   ├── router                             	   // 路由
+│   │   └── index.js										
+│   ├── service                             	   // 业务处理
+│   │   └── axios.js										// axios封装										
+│   │   └── bus.js										// bus总线
+│   ├── utils                             	   // 工具
+│   │   └── httpUtil.js									// http请求封装		
+│   ├── App.vue                                 // 页面入口文件
+│   ├── main.js                                 // 程序入口文件，配置文件
+├── .gitignore                                  // git忽略提交的文件
+├── package.json                                // 项目依赖文件管理
+├── README.md                                	// README.md
+├── babel.config.js                             // babel配置文件
+├── vue.config.js                             	// 项目配置文件
+.
+```
 
 ## 克隆项目
 
