@@ -1,4 +1,6 @@
-# vue-system-admin
+# 注意： 当前项目暂时不会维护了，后续我会开放出来更加强大简洁的管理系统。
+
+## vue-system-admin
 
 ###   [在线体验地址](http://175.24.95.198/)
 ###   [仓库地址](https://github.com/FTLLOVE/vue-system-admin)
